@@ -101,8 +101,17 @@ Since we reject the null hypothesis, this means that there is a difference in th
 
 <iframe src="assests/kill-count.html" width=800 height=600 frameBorder=0></iframe>
 
+# Framing the question
+
+I am trying to predict whether a team won or lost, therefore this type of prediction problem is classification. Since there are only options we are trying to predict, my classifier will be performing binary classification. The variable we are choosing to predict is the result column which contains whether a team lost or won a game. 
+
 # Baseline Model
 
+In order to predict whether a team will win or lose a game, we are going to start grabbing features that we believe to be influential to the outcome. The features that were chosen for the baseline model(RandomForestClassifier) were:  ‘kills’, ‘side’ and ‘totalgold’. The ‘result’ column is what we are trying to predict therefore it will not be used in our baseline model, but will be used to help train the model. Why were these features chosen? : 
+
+* ‘Kills’ - Kills provide gold and experience advantages, this allows team members to level up their champions giving them a better chance at winning. The kills feature is a quantitative feature.
+* ‘Side’ - There is a possibility one side (red or blue) may provide a team an advantage. 
+* ‘Totalgold’ - Similar to the ‘Kills’ column, earning more gold can level up champions giving players advantages. The Totalgold feature is a quantitative feature.
 
 
 # Final Model
