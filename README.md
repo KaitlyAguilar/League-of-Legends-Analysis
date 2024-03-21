@@ -31,6 +31,6 @@ I chose these columns because they provided the rigth information needed for the
 __Data Cleaning__
 
 To begin cleaning the data, I frist started by grabbing all the columns I needed. These columns included: 'kills', 'assists', 'results', and 'position'. Later on in the analysis I would go back into my data set and retrive other relevant columns. I chose to focus maininly
-on the outcome of teams rather than individual player performances as I would be looking for overall kill and assists count per game. As a result, I only extracted rows corresponding to the summary statistics of the two teams, necessitating a search through the 'positions' column. Next, I searched for any misssing values in the data, but none were found.
+on the outcome of teams rather than individual player performances as I would be looking for overall kill and assists count per game. As a result, I only extracted rows corresponding to the summary statistics of the two teams, necessitating a search through the 'positions' column. Next, I searched for any misssing values in the data, but none were found. Since I was looking for teams that scored above average kills and assists counts, I transformed the kills and assists data into a series of Boolean values, with 1 indicating that the team achieved above-average kill or assist counts, and 0 indicating otherwise
 
 
