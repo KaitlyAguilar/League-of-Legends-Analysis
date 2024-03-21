@@ -80,13 +80,20 @@ __Missingness Dependency__
 
 # Hypothesis Testing
 
+*We will be analyzing a different question than the previous one*
+
 Null hypothesis : The mean number of kills by winning teams is the same as the mean number of kills by non-winning teams
 
-Alternative hypothesis : The mean number of kills by winning teams is different than the mean number of kills by non-winning teams
+Alternative hypothesis : The mean number of kills by winning teams is greater than the mean number of kills by non-winning teams
 
-Test stat: Difference in Means
+Test stat:  Difference in Means
+* I chose the difference in means because we are using quantitative data and we have direction in our hypothesis.
+
+p-value: 0.0
+* I did 1000 simulations
 
 Significance level: 0.05
+* I chose this significance level because it it standard
 
 
 
