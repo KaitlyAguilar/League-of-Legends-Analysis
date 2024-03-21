@@ -113,6 +113,8 @@ In order to predict whether a team will win or lose a game, we are going to star
 * ‘Side’ - There is a possibility one side (red or blue) may provide a team an advantage. 
 * ‘Totalgold’ - Similar to the ‘Kills’ column, earning more gold can level up champions giving players advantages. The Totalgold feature is a quantitative feature.
 
+__Encoding__:
+There was only one column that I encoded and that was the 'side' column. I encoded the column so it would make two columns where one had 1's for trues and 0's for falses. This would label the teams as either being on the blue side of the map or the red side.
 
 # Final Model
 
