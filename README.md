@@ -103,7 +103,7 @@ Since we reject the null hypothesis, this means that there is a difference in th
 
 # Framing the question
 
-I am trying to predict whether a team won or lost, therefore this type of prediction problem is classification. Since there are only options we are trying to predict, my classifier will be performing binary classification. The variable we are choosing to predict is the result column which contains whether a team lost or won a game. 
+I am trying to predict whether a team won or lost, therefore this type of prediction problem is classification. Since there are only options we are trying to predict, my classifier will be performing binary classification. The variable we are choosing to predict is the result column which contains whether a team lost or won a game. The metric I chose to evaluate my model was accuracy. Accuracy is a suitable metric because the two classes we are predicting are approximately balanced since for every True(win) there is a False(Lost).
 
 # Baseline Model
 
