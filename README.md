@@ -82,20 +82,22 @@ __Missingness Dependency__
 
 *We will be analyzing a different question than the previous one*
 
-Null hypothesis : The mean number of kills by winning teams is the same as the mean number of kills by non-winning teams
+__Null hypothesis__: The mean number of kills by winning teams is the same as the mean number of kills by non-winning teams
 
-Alternative hypothesis : The mean number of kills by winning teams is greater than the mean number of kills by non-winning teams
+__Alternative hypothesis__: The mean number of kills by winning teams is greater than the mean number of kills by non-winning teams
 
-Test stat:  Difference in Means
+__Test stat__:  Difference in Means
 * I chose the difference in means because we are using quantitative data and we have direction in our hypothesis.
 
-p-value: 0.0
+__p-value__: 0.0
 * I did 1000 simulations
 
-Significance level: 0.05
+__Significance level__: 0.05
 * I chose this significance level because it it standard
 
+__Conclusion__: We reject the null hypothesis. Meaning the number of mean kills by winning teams is no the same as the mean number of kills by non-winning teams.
 
+Since we reject the null hypothesis, this means that there is a difference in the number of kills between winning teams and non-winning teams. I believe that number of kills a team earns has influence on the outcome of the match.
 
 
 
