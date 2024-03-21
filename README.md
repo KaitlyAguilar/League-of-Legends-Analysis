@@ -9,3 +9,15 @@ Our dataset encompasses all professional League of Legends matches held in 2023.
 
 Individuals engaged in League of Legends gameplay may seek insights into strategies that enhance their chances of winning. Additionally, new players can utilize these findings to prioritize their learning objectives effectively.
 
+The columns that we usefule in the analysis were:
+
+* __Kills__
+* __Assits__
+* __Result__
+* __Position__
+* __League__
+* __Damagemitigatedperminute__
+* __Side__
+* __Total_gold__
+* __Barons__
+* __Gamelength__
