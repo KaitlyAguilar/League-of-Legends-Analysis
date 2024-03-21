@@ -19,5 +19,6 @@ The columns that we usefule in the analysis were:
 * __Damagemitigatedperminute__ - A teams damage mitigaded per minute
 * __Side__ - Side the team was one (red or blue)
 * __Total_gold__ - Total gold earned in a game                                                  
-* __Barons__
-* __Gamelength__
+* __Gamelength__ - The tota; length of a game in seconds
+
+I chose these columns because it seemed that these columns had 
