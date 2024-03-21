@@ -11,7 +11,7 @@ Individuals engaged in League of Legends gameplay may seek insights into strateg
 
 __Description of Columns:__
 
-The columns that we usefule in the analysis were:
+The columns that were usefule in the analysis were:
 
 * __Kills__ - Total kill count for the team
 * __Assists__ - Total assists count for the team
@@ -24,3 +24,12 @@ The columns that we usefule in the analysis were:
 * __Gamelength__ - The tota; length of a game in seconds
 
 I chose these columns because they provided the rigth information needed for the tests. They provided the results of the games and other factors such as kills, assists, total_gold, etc. Other columns such as position were used to filter through the data, ensuring our dataframe consisted of only the summary statistics for each team.
+
+
+# Data Cleaning and Exploratory Data Analysis
+
+__Data Cleaning__
+
+To begin cleaning the data, I frist started by grabbing all the columns I needed. These columns included: 'kills', 'assists', 'results', and 'position'. Later on in the analysis I would go back into my data set and retrive other relevant columns.
+
+
