@@ -54,6 +54,8 @@ __Bivariate Analysis:__
 
 The graph above shows the percentage win rate for teams that scored above avgerage kill counts and the percentage win rate for teams that scored above average assists counts.
 
+__Pivot Table:__
+
 | Result | False | True |
 |----------|----------|----------|
 |   teamname   |      |      |
@@ -63,6 +65,8 @@ The graph above shows the percentage win rate for teams that scored above avgera
 |   3BL Esports	   |   6.0   |   13.0   |
 |   5 Ronin	   |   1.0   |   1.0   |
 |   ...   |   ...   |   ...   |
+
+The pivot table above shows whether a team won or lost corresponding to their above average assists count. For example, the first row shows that the team 100 Thieves scores above average assists in three games but lost, while scoring 20 above average assists in the rest of their games and winning those.
 
 
 
