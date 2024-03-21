@@ -99,5 +99,13 @@ __Conclusion__: We reject the null hypothesis. Meaning the number of mean kills 
 
 Since we reject the null hypothesis, this means that there is a difference in the number of kills between winning teams and non-winning teams. I believe that number of kills a team earns has influence on the outcome of the match.
 
+<iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
+
+# Baseline Model
 
 
+
+# Final Model
+
+
+# Fairness Analysis
