@@ -78,6 +78,15 @@ Yes, I believe that there are multiple columns that are classified as Not Missin
 __Missingness Dependency__
 
 
+# Hypothesis Testing
+
+Null hypothesis : The mean number of kills by winning teams is the same as the mean number of kills by non-winning teams
+
+Alternative hypothesis : The mean number of kills by winning teams is different than the mean number of kills by non-winning teams
+
+Test stat: Difference in Means
+
+Significance level: 0.05
 
 
 
