@@ -11,13 +11,13 @@ Individuals engaged in League of Legends gameplay may seek insights into strateg
 
 The columns that we usefule in the analysis were:
 
-* __Kills__
-* __Assits__
-* __Result__
-* __Position__
-* __League__
-* __Damagemitigatedperminute__
-* __Side__
-* __Total_gold__
+* __Kills__ - Total kill count for the team
+* __Assits__ - Total assists count for the team
+* __Result__ - True if the team won the game, otherwise False
+* __Position__ - Position of player or team if row belongs to the team statistics
+* __League__ - The leaague the games belong to
+* __Damagemitigatedperminute__ - A teams damage mitigaded per minute
+* __Side__ - Side the team was one (red or blue)
+* __Total_gold__ - Total gold earned in a game                                                  
 * __Barons__
 * __Gamelength__
