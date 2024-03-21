@@ -44,13 +44,13 @@ on the outcome of teams rather than individual player performances as I would be
 
 __Univariate Analysis:__
 
-<iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assests/kill-count.html" width=800 height=600 frameBorder=0></iframe>
 
 The pie chart above shows the percentage of games won by teams that earned an above average kill count and the percentage of games won by teams the earned a below average kill count.
 
 __Bivariate Analysis:__
 
-<iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assests/kill-count.html" width=800 height=600 frameBorder=0></iframe>
 
 The graph above shows the percentage win rate for teams that scored above avgerage kill counts and the percentage win rate for teams that scored above average assists counts.
 
