@@ -69,6 +69,16 @@ __Pivot Table:__
 The pivot table above shows whether a team won or lost corresponding to their above average assists count. For example, the first row shows that the team 100 Thieves scores above average assists in three games but lost, while scoring 20 above average assists in the rest of their games and winning those.
 
 
+# Assessment of Missingness
+
+__NMAR Analysis__
+
+Yes, I believe that there are multiple columns that are classified as Not Missing At Random (NMAR). There are four columns that were found to be NMAR in the dataset. These include ban1, ban2, ban3, and ban4 which all indicate the character that has been banned from a certain player. Therefore, when there are missing values in any of these columns, you can conclude that there was no banned character for that specific player. 
+
+__Missingness Dependency__
+
+
+
 
 
 
