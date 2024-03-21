@@ -52,7 +52,18 @@ __Bivariate Analysis:__
 
 <iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
 
-The bar graph above shows the teams that scored an above average in assists and their above average kill count compared to teams that also scored above average but lost. The graph also shows teams who scored below avgerage in assists and won.
+The graph above shows the percentage win rate for teams that scored above avgerage kill counts and the percentage win rate for teams that scored above average assists counts.
+
+| Result | False | True |
+|----------|----------|----------|
+|   teamname   |      |      |
+|   100 Thieves   |   3.0   |   20.0   |
+|   100 Thieves Challengers	   |   2.0   |   19.0   |
+|   19esports   |   2.0   |   15.0   |
+|   3BL Esports	   |   6.0   |   13.0   |
+|   5 Ronin	   |   1.0   |   1.0   |
+|   ...   |   ...   |   ...   |
+
 
 
 
