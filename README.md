@@ -44,6 +44,13 @@ on the outcome of teams rather than individual player performances as I would be
 
 __Univariate Analysis:__
 
+<iframe
+  src="assets/kills-count.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 
 
 
