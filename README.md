@@ -5,7 +5,7 @@ By Kaitly Aguilar
 
 # Introduction
 
-Our dataset encompasses all professional League of Legends matches held in 2023. Each game is represented by 12 rows, with 10 rows dedicated per player and an additional two rows providing summary statistics for each participating team in the match. In this anlysis we will answering a couple of questions: Is a team more likely to win with a higher kills count or assists count? and  Is the mean number of kills by winning teams is the same as the mean number of kills by non-winning teams?
+Our dataset encompasses all professional League of Legends matches held in 2023. Each game is represented by 12 rows, with 10 rows dedicated per player and an additional two rows providing summary statistics for each participating team in the match. In this anlysis we will answering a couple of questions: *Is a team more likely to win with a higher avgerage kills count or higher avgerage assists count?* and  *Is the mean number of kills by winning teams is the same as the mean number of kills by non-winning teams?*
 
 Individuals engaged in League of Legends gameplay may seek insights into strategies that enhance their chances of winning. Additionally, new players can utilize these findings to prioritize their learning objectives effectively.
 
@@ -31,6 +31,6 @@ I chose these columns because they provided the rigth information needed for the
 __Data Cleaning__
 
 To begin cleaning the data, I frist started by grabbing all the columns I needed. These columns included: 'kills', 'assists', 'results', and 'position'. Later on in the analysis I would go back into my data set and retrive other relevant columns. I chose to focus maininly
-on the outcome of teams rather than individual player performances as I would be looking for overall kill and assists count per game. As a result, I only extracted rows corresponding to the summary statistics of the two teams, necessitating a search through the 'positions' column.
+on the outcome of teams rather than individual player performances as I would be looking for overall kill and assists count per game. As a result, I only extracted rows corresponding to the summary statistics of the two teams, necessitating a search through the 'positions' column. Next, I searched for any misssing values in the data, but none were found.
 
 
