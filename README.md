@@ -46,6 +46,14 @@ __Univariate Analysis:__
 
 <iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
 
+The pie chart above shows the percentage of games won by teams that earned an above average kill count and the percentage of games won by teams the earned a below average kill count.
+
+__Bivariate Analysis:__
+
+<iframe src="assets/kill-count.html" width=800 height=600 frameBorder=0></iframe>
+
+The bar graph above shows the teams that scored an above average in assists and their above average kill count compared to teams that also scored above average but lost. The graph also shows teams who scored below avgerage in assists and won.
+
 
 
 
