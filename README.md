@@ -128,7 +128,19 @@ __Added Features__:
 
 __Modeling Algorithm__:
 
-The modeling algorithm that I choose to predict whether a team wins or looses is the Random Forest Classifier.The hyperparameters that ended up preforming best were: {'clf__max_depth': 10, 'clf__min_samples_split': 20, 'clf__n_estimators': 300}. I found these parameters through grid searching where I provided  As the predictions are binary and balanced, I decided to use the metric of accuracy to compare the preformace of my models. 
+The modeling algorithm that I choose to predict whether a team wins or looses is the Random Forest Classifier.The hyperparameters that ended up preforming best were: {'clf__max_depth': 10, 'clf__min_samples_split': 20, 'clf__n_estimators': 300}. I found these parameters through grid searching where I provided the following options:
+
+hyperparameters = {
+
+    'clf__n_estimators': [200, 300, 150],
+    
+    'clf__max_depth': [10, 60, 100],
+    
+    'clf__min_samples_split': [5, 10, 20]
+    
+}
+
+As the predictions are binary and balanced, I decided to use the metric of accuracy to compare the preformace of my models. My model's final preformance increased by roughly 3% on the testing data and roughly 5% on the training data. After displaying the condusion matrix, it is clear that the model was able to very consistently predict the outcome of a match.
 
 
 
