@@ -109,9 +109,9 @@ I am trying to predict whether a team won or lost, therefore this type of predic
 
 In order to predict whether a team will win or lose a game, we are going to start grabbing features that we believe to be influential to the outcome. The features that were chosen for the baseline model(RandomForestClassifier) were:  ‘kills’, ‘side’ and ‘totalgold’. The ‘result’ column is what we are trying to predict therefore it will not be used in our baseline model, but will be used to help train the model. Why were these features chosen? : 
 
-* ‘Kills’ - Kills provide gold and experience advantages, this allows team members to level up their champions giving them a better chance at winning. The kills feature is a quantitative feature.
-* ‘Side’ - There is a possibility one side (red or blue) may provide a team an advantage. The side column was hot one encoded in order to make the categorical values quantitative 
-* ‘Totalgold’ - Similar to the ‘Kills’ column, earning more gold can level up champions giving players advantages. The Totalgold feature is a quantitative feature.
+* `‘Kills’` - Kills provide gold and experience advantages, this allows team members to level up their champions giving them a better chance at winning. The kills feature is a quantitative feature.
+* `‘Side’` - There is a possibility one side (red or blue) may provide a team an advantage. The side column was hot one encoded in order to make the categorical values quantitative 
+* `‘Totalgold’` - Similar to the ‘Kills’ column, earning more gold can level up champions giving players advantages. The Totalgold feature is a quantitative feature.
 
 __Encoding__:
 There was only one column that I encoded and that was the 'side' column. I encoded the column so it would make two columns where one had 1's for trues and 0's for falses. This would label the teams as either being on the blue side of the map or the red side.
@@ -119,10 +119,17 @@ There was only one column that I encoded and that was the 'side' column. I encod
 # Final Model
 
 In order to better the model I engineered a few features.
-Added Features:
-* Gamelength(used to make new features) - I used game length to find the number of kills per second a team had to better predict the outcome for a team. Helps produce other columns such as kill_per_s.
-* kill_per_s - Calculates the average kills per second a team gets. This shows on avgerage how good a teams preforms, either through skill or strategy. 
-* Totalgold (Avg) - The total goal column was binarized by the avg amount of gold that was earned throughout the entire dataset. Is a good indicater of players who may have been able to level up their champions giving them advantages.
-* Assists (Avg) - The assits was binarized by the avg amount of assits that were earned throughout the entire dataset. This is good as assists also generate more gold giving allowing players to level up their champion.
+__Added Features__:
+
+* `Gamelength` (used to make new features) - I used game length to find the number of kills per second a team had to better predict the outcome for a team. Helps produce other columns such as kill_per_s.
+* `kill_per_s` - Calculates the average kills per second a team gets. This shows on avgerage how good a teams preforms, either through skill or strategy. 
+* `Totalgold (Avg)` - The total goal column was binarized by the avg amount of gold that was earned throughout the entire dataset. Is a good indicater of players who may have been able to level up their champions giving them advantages.
+* `Assists (Avg)` - The assits was binarized by the avg amount of assits that were earned throughout the entire dataset. This is good as assists also generate more gold giving allowing players to level up their champion.
+
+__Modeling Algorithm__:
+
+The modeling algorithm that I choose to predict whether a team wins or looses is the Random Forest Classifier.The hyperparameters that ended up preforming best were: {'clf__max_depth': 10, 'clf__min_samples_split': 20, 'clf__n_estimators': 300}. I found these parameters through grid searching where I provided  As the predictions are binary and balanced, I decided to use the metric of accuracy to compare the preformace of my models. 
+
+
 
 # Fairness Analysis
