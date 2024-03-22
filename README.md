@@ -73,7 +73,7 @@ The pivot table above shows whether a team won or lost corresponding to their ab
 
 __NMAR Analysis__
 
-Yes, I believe that there are multiple columns that are classified as Not Missing At Random (NMAR). There are four columns that were found to be NMAR in the dataset. These include ban1, ban2, ban3, and ban4 which all indicate the character that has been banned from a certain player. Therefore, when there are missing values in any of these columns, you can conclude that there was no banned character for that specific player. 
+Yes, I believe that there are multiple columns that are classified as Not Missing At Random (NMAR). There are four columns that were found to be NMAR in the dataset. These include ban1, ban2, ban3, and ban4 which all indicate the character that has been banned from a certain player. Therefore, when there are missing values in any of these columns, you can conclude that there was no banned character for that specific player. Other data that I wish to obtain to explain it's missingness, making it MAR, would be League. This is because there are certain leagues that have differing rules and may not permit champion bans.
 
 __Missingness Dependency__
 
