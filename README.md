@@ -77,6 +77,11 @@ Yes, I believe that there are multiple columns that are classified as Not Missin
 
 __Missingness Dependency__
 
+Clouds Does Depends on League
+<iframe src="assests/Emperical-tvd.html" width=800 height=600 frameBorder=0></iframe>
+
+Clouds Does Not Depends on Team
+<iframe src="assests/Emperical-tvd2.html" width=800 height=600 frameBorder=0></iframe>
 
 # Hypothesis Testing
 
