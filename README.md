@@ -121,7 +121,7 @@ There was only one column that I encoded and that was the 'side' column. I encod
 In order to better the model I engineered a few features.
 Added Features:
 * Gamelength(used to make new features) - I used game length to find the number of kills per second a team had to better predict the outcome for a team. Helps produce other columns such as kill_per_s.
-* kill_per_s - Calculates the average kills per second a team gets. This shows on avgerage how good a teams skill increasing the likelihood of a team winning.
+* kill_per_s - Calculates the average kills per second a team gets. This shows on avgerage how good a teams preforms, either through skill or strategy. 
 * Totalgold (Avg) - The total goal column was binarized by the avg amount of gold that was earned throughout the entire dataset. Is a good indicater of players who may have been able to level up their champions giving them advantages.
 * Assists (Avg) - The assits was binarized by the avg amount of assits that were earned throughout the entire dataset. This is good as assists also generate more gold giving allowing players to level up their champion.
 
