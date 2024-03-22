@@ -143,6 +143,23 @@ hyperparameters = {
 As the predictions are binary and balanced, I decided to use the metric of accuracy to compare the preformace of my models. My model's final preformance increased by roughly 3% on the testing data and roughly 5% on the training data. After displaying the condusion matrix, it is clear that the model was able to very consistently predict the outcome of a match.
 ![image](https://github.com/KaitlyAguilar/League-of-Legends-Analysis/assets/146782029/cc9018d2-3b2b-449f-918f-5c71058c5d72)
 
-
-
 # Fairness Analysis
+
+
+__Group X:__ Blue
+
+__Group Y:__ Red
+
+__Null Hypothesis:__ The classifier's accuracy is the same for both the blue side and red side, and any differences are due to chance.
+
+__Alternative Hypothesis:__ The classifier's accuracy is higher for the blue side.
+
+__Evaluation Metric:__ Accuracy
+
+__Significance  Level:__ 0.05
+
+__P_value:__ 0.032
+
+
+
+
