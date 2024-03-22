@@ -141,6 +141,7 @@ hyperparameters = {
 }
 
 As the predictions are binary and balanced, I decided to use the metric of accuracy to compare the preformace of my models. My model's final preformance increased by roughly 3% on the testing data and roughly 5% on the training data. After displaying the condusion matrix, it is clear that the model was able to very consistently predict the outcome of a match.
+![image](https://github.com/KaitlyAguilar/League-of-Legends-Analysis/assets/146782029/cc9018d2-3b2b-449f-918f-5c71058c5d72)
 
 
 
