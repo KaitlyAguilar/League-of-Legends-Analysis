@@ -77,11 +77,25 @@ Yes, I believe that there are multiple columns that are classified as Not Missin
 
 __Missingness Dependency__
 
-Clouds Does Depends on League
+We want to see if the missingness of "clouds" does depend on "league"
+Here is what was observed:
 <iframe src="assests/Emperical-tvd.html" width=800 height=600 frameBorder=0></iframe>
 
-Clouds Does Not Depends on Team
+Our observed statistic was: 0.0984986728599867
+
+Our p-value was: 0.0
+
+As we can see in the emprical distribution of TVD, cloud is dependent on league.
+
+We want to see if the missingness of "clouds" does depend on "side" 
+Here is what was observed:
 <iframe src="assests/Emperical-tvd2.html" width=800 height=600 frameBorder=0></iframe>
+
+Our observed statistic was: 0.014154480689913762
+
+Our p-value was: 0.006
+
+As we can see in the emprical distribution of TVD, cloud is  not dependent on league.
 
 # Hypothesis Testing
 
