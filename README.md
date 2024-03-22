@@ -160,6 +160,8 @@ __Significance  Level:__ 0.05
 
 __P_value:__ 0.032
 
+__Conclusion__
+Since our p-value is 0.032 which is less than the significance level of 0.05, you reject the null hypothesis. Our findings support the possibility that there is unfairness in our model.
 
 
 
